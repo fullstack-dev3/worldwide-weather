@@ -116,6 +116,28 @@
 .mobile-navigation .menu .menu-item.current-menu-item a {
   color: #009ad8;
 }
+.hero {
+  background-size: cover;
+  min-height: 350px;
+  padding: 70px 0;
+}
+.find-location {
+  margin-bottom: 70px;
+  position: relative;
+}
+.find-location input[type="text"] {
+  background: #1e202b;
+  color: white;
+  padding: 20px 50px 20px 20px;
+  width: 100%;
+}
+.find-location input[type="submit"] {
+  bottom: 5px;
+  padding: 0 40px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
 .site-footer {
   background: #262936;
   padding: 50px 0;
