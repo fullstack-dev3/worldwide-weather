@@ -460,6 +460,25 @@
 .post p {
   margin-bottom: 30px;
 }
+.entry-content blockquote {
+  margin-left: 50px;
+  padding-left: 50px;
+  position: relative;
+}
+.entry-content blockquote:before {
+  background: url(../images/quote.png);
+  content: " ";
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+.entry-content blockquote p {
+  color: #009ad8;
+  font-size: 24px;
+  font-size: 1.7142857143rem;
+}
 .sidebar .widget {
   background: #262936;
   border-radius: 10px;
