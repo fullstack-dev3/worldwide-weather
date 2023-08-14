@@ -116,6 +116,31 @@
 .mobile-navigation .menu .menu-item.current-menu-item a {
   color: #009ad8;
 }
+.breadcrumb {
+  background: #262936;
+  border-radius: 40px;
+  padding: 20px 30px;
+  font-size: 13px;
+  font-size: 0.9285714286em;
+}
+.breadcrumb a {
+  color: #bfc1c8;
+}
+.breadcrumb a:after {
+  background: url(../images/arrow-gray.png) no-repeat;
+  content: " ";
+  display: inline-block;
+  height: 7px;
+  margin: 0 10px;
+  vertical-align: middle;
+  width: 12px;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+.breadcrumb span {
+  color: white;
+}
 .hero {
   background-size: cover;
   min-height: 350px;
@@ -405,6 +430,76 @@
   height: auto;
   width: 100%;
   max-width: 100%;
+}
+.post {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 50px 0;
+}
+.post.single {
+  border-bottom: none;
+}
+.post:first-child {
+  padding-top: 0;
+}
+.post .entry-title {
+  color: white;
+  font-size: 30px;
+  font-size: 2.1428571429em;
+  font-weight: 300;
+}
+.post .featured-image {
+  margin-bottom: 20px;
+}
+.post .featured-image img {
+  border-radius: 5px;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+.post p {
+  margin-bottom: 30px;
+}
+.sidebar .widget {
+  background: #262936;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.sidebar .widget .widget-title {
+  font-size: 24px;
+  font-size: 1.7142857143em;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.sidebar .widget .arrow-list li {
+  border: none;
+}
+.sidebar .widget.top-rated {
+  padding: 0;
+}
+.sidebar .widget.top-rated .widget-title {
+  padding: 20px 20px 0; }
+.sidebar .widget.top-rated ul {
+  list-style: none; }
+.sidebar .widget.top-rated ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+}
+.sidebar .widget.top-rated ul li:last-child {
+  border-bottom: none;
+}
+.sidebar .widget.top-rated .entry-title {
+  font-size: 14px;
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.sidebar .widget.top-rated .entry-title a {
+  color: #bfc1c8;
+}
+.sidebar .widget.top-rated .rating strong {
+  color: #009ad8;
 }
 .site-footer {
   background: #262936;
