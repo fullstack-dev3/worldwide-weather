@@ -1,0 +1,64 @@
+.site-header {
+  padding: 50px 0;
+}
+.site-header .branding {
+  float: left;
+}
+.site-header .branding .logo,
+.site-header .branding .logo-type {
+  display: inline-block;
+  vertical-align: middle;
+}
+.site-header .branding .logo {
+  margin-right: 10px;
+}
+.site-header .branding .site-title {
+  color: white;
+  font-size: 16px;
+  font-size: 1.1428571429em;
+  margin-bottom: 5px;
+}
+.site-header .branding .site-description {
+  color: #bfc1c8;
+  display: block;
+  font-size: 10px;
+  font-size: 0.7142857143em;
+}
+.site-footer {
+  background: #262936;
+  padding: 50px 0;
+}
+.site-footer .subscribe-form {
+  margin-bottom: 30px;
+  position: relative;
+}
+.site-footer .subscribe-form input[type="text"] {
+  background: #1e202b;
+  color: white;
+  padding: 20px 100px 20px 20px;
+  width: 100%;
+}
+.site-footer .subscribe-form input[type="submit"] {
+  bottom: 5px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.site-footer .social-links a {
+  -webkit-transition: .3s ease;
+  background: #1e202b;
+  border-radius: 50%;
+  color: #009ad8;
+  display: inline-block;
+  font-size: 20px;
+  font-size: 1.4285714286em;
+  height: 40px;
+  line-height: 2;
+  text-align: center;
+  transition: .3s ease;
+  width: 40px;
+}
+.site-footer .social-links a:hover {
+  background: #009ad8;
+  color: white;
+}
