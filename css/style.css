@@ -299,7 +299,7 @@
   vertical-align: middle;
 }
 .select.control:after {
-  background: url(images/arrow-down.png);
+  background: url(../images/arrow-down.png);
   bottom: 0;
   content: " ";
   display: block;
@@ -320,6 +320,9 @@
   outline: none;
   padding: 10px 30px;
   width: 110%;
+}
+.select.control select option {
+  background: #262936;
 }
 .live-camera {
   margin-bottom: 30px;
